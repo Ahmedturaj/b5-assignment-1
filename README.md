@@ -97,7 +97,7 @@ _`type` supports unions and primitives, but `interface` doesn’t._
 
 _`type` can define unions, tuples, and primitives — `interface` can't._
 
-# What is the use of the keyof keyword in TypeScript? Provide an example.
+# 2.What is the use of the keyof keyword in TypeScript? Provide an example.
 
 `Keyof` keyword in typeScript used for getting a value from those type which are most like object like :
 
