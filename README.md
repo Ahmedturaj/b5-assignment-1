@@ -59,9 +59,9 @@ Can represent anything — primitives (string, number), tuples, unions, intersec
 
 `interface Animal {
 name: string;
-}
+}`
 
-interface Dog extends Animal {
+`interface Dog extends Animal {
 breed: string;
 }`
 
@@ -69,9 +69,9 @@ breed: string;
 
 `type Animal = {
 name: string;
-};
+};`
 
-type Dog = Animal & {
+`type Dog = Animal & {
 breed: string;
 }`
 
@@ -88,9 +88,9 @@ _`type` supports unions and primitives, but `interface` doesn’t._
 
 ## Use with Primitives & Tuples
 
-`type ID = string | number;
+`type ID = string | number;`
 
-type Point = [number, number]`
+`type Point = [number, number]`
 
 `// ❌ Not allowed with interface
 // interface ID = string | number; // Error`
