@@ -96,3 +96,16 @@ _`type` supports unions and primitives, but `interface` doesn’t._
 // interface ID = string | number; // Error`
 
 _`type` can define unions, tuples, and primitives — `interface` can't._
+
+# What is the use of the keyof keyword in TypeScript? Provide an example.
+
+`Keyof` keyword in typeScript used for getting a value from those type which are most like object like :
+
+`interface Person {
+  name: string;
+  age: number;
+}`
+
+`type PersonKeys = keyof Person; // "name" | "age"`
+
+Actually, `keyof` commands- give me all the keys (Property name ) of an object or interface. So, in that example when `keyof` has written on `person` that time the other type `PersonKeys` will get the property means `name`, `age` from that.
